@@ -5,19 +5,20 @@ Sample scripts that work with the python wiserheatingapi from Angelo Santagata h
 
 These two scripts allow you to save and restore configurations for different times of the year and easily get them back
 
-export_schedules.py exports the current heating schedules for all rooms to a text file
+<h4>Export</h4> export_schedules.py exports the current heating schedules for all rooms to a text file
 
 eg **./export_schedules.py winter.txt**
-
-import_schedules.py imports the current heating schedules for all rooms from a text file
-
-eg **./import_schedules.py autumn.txt**
 
 **SAVE** your existing schedules **FIRST** and then modify them using the app to suit the season and then save them again with a new name
 
 The export/import files are text but include long formatted Wiser Hub data structures
 
 There are comments before each room in the export files to show you the **roomId** and **Name**. These are currently ignored during import.
+
+<h4>Import</h4> import_schedules.py imports the current heating schedules for all rooms from a text file
+
+eg **./import_schedules.py autumn.txt**
+
 
 **WARNINGS**
 
