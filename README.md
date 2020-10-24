@@ -25,6 +25,6 @@ If you add or remove rooms then you will have to recreate or modify the export f
 
 The comments are there to help but its your responsibility to get it right. 
 
-You should be able to chop lines out if you only want to restore the schedule for some of the rooms.
+You should be able to comment lines out if you only want to restore the schedule for some of the rooms.
 
 Importing is done by id number and does not currently check names ... or if the id has changed ...
