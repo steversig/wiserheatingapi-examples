@@ -2,6 +2,7 @@
 Sample scripts that work with the python wiserheatingapi from Angelo Santagata https://github.com/asantaga/wiserheatingapi
 
 <h3>Heating Schedule Backup and Restore</h3>
+
 These two scripts allow you to save and restore configurations for different times of the year and easily get them back
 
 export_schedules.py exports the current heating schedules for all rooms to a text file
