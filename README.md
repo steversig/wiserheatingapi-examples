@@ -51,6 +51,6 @@ Importing is done by id number and does not currently check names ... or if the 
 
 <h4>System Status</h4>Provides a condensed overview of the Heat Hub for diagnostic purposes. It includes the System state, the Controller state and what versions of firmware are available to the devices plus a list of all the rooms and what devices are in them. The room info includes temperatures, set points and heating state. The devices have signal levels, battery levels and states. Its derived from the wiserapitest.py example. 
 
-eg **./systemstatus.py.txt**
+To run **./systemstatus.py**
 
 If you have only just turned on the Heat Hub then the battery state will show as **Unknown** until the controller talks to that device.
