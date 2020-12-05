@@ -7,7 +7,7 @@ All scripts use the same **wiserkeys.params** file to hold the necessary informa
 
 <h3>Heating Schedule Advance and Undo Advance</h3>
 
-This extra capability requires two new library funtions **setRoomScheduleAdvance** and  **setRoomScheduleAdvanceUndo** that are in https://github.com/steversig/wiserheatingapi/wiserHeatingAPI/wiserHub.py and have had a pull request #23 issued to merge them upstream.
+This extra capability requires two new library funtions **setRoomScheduleAdvance** and **setRoomScheduleAdvanceUndo** that were added in version 1.0.10
 
 <h4>Advance</h4> advance.py sets the temperature of a room to the next set point. If you select **All** then all rooms are done. Quote rooms with spaces in their names such as "Bed 1"
 
